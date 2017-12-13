@@ -5,4 +5,3 @@ Panie!
 
 __
 Pozdrawiam
-aa
