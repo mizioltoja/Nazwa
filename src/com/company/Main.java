@@ -86,6 +86,7 @@ public class Main {
 
     //1.8 Napisz program, w którym wprowadzisz w konsoli swoje imię, następnie zapiszesz je do pliku. Odczytaj je z powrotem z pliku i bez użycia dodatkowej zmiennej wyświetl na ekranie.
 
+        /*
         Scanner input = new Scanner(System.in);
         System.out.print("Podaj Swoje imie czy cos tam\n");
         String imie = input.nextLine();
@@ -95,5 +96,17 @@ public class Main {
 
         Scanner odczytpliku = new Scanner(new File("Chuj.txt"));
         System.out.print("\n\n\n" + odczytpliku.nextLine());
+        */
+
+//petle
+    /*    int licznik = 0;
+
+        while(licznik<10){
+            System.out.println("To jest petla");
+            licznik++;
+        }
+        System.out.println("Koniec pętli");
+*/
+    
     }
 }
