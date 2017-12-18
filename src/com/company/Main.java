@@ -83,17 +83,17 @@ public class Main {
         }
 
 */
-       File plik= new File();
-       // Scanner odczyt = new Scanner(new File("kody.txt"));
-        Scanner input = new Scanner(System.in);
-        System.out.println("Podaj swoje imię");
-        String imie = input.nextLine();
 
-        PrintWriter zapis = new PrintWriter("imie.txt");
+    //1.8 Napisz program, w którym wprowadzisz w konsoli swoje imię, następnie zapiszesz je do pliku. Odczytaj je z powrotem z pliku i bez użycia dodatkowej zmiennej wyświetl na ekranie.
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Podaj Swoje imie czy cos tam\n");
+        String imie = input.nextLine();
+        PrintWriter zapis = new PrintWriter("Chuj.txt");
         zapis.print(imie);
         zapis.close();
 
-        Scanner odczyt = new Scanner(new File("imie.txt"));
-        System.out.println(odczyt.nextLine());
+        Scanner odczytpliku = new Scanner(new File("Chuj.txt"));
+        System.out.print("\n\n\n" + odczytpliku.nextLine());
     }
 }
