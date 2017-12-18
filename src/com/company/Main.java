@@ -107,6 +107,41 @@ public class Main {
         }
         System.out.println("Koniec pętli");
 */
-    
+
+
+
+//tablica
+    // 1.12 Napisz program, w którym zadeklarujesz i utworzysz pięcioelementową tablicę odpowiedniego typu. W pętli pobierzesz od użytkownika 5 imion i je w niej zapiszesz. Następnie wyświetl na ekranie powiadomienia "Witaj imie_z_tablicy" dla każdego z podanych parametrów.
+/*
+        String[] imiona = new String[4];
+        Scanner czytaj = new Scanner(System.in);
+        byte i=0;
+
+        for(i=0;i<4;i++) {
+        System.out.println("\nPodaj "+(i+1)+" Imie:");
+        imiona[i]=czytaj.nextLine();
+
+        }
+
+        for(i=0;i<4;i++) {
+        System.out.println("Witaj "+imiona[i]);
+        }
+*/
+
+    //1.13 Utwórz tablicę typu int przechowującą n elementów - gdzie n jest parametrem pobieranym od użytkownika. Następnie wypełnij ją liczbami od 1 do n i wyświetl zawartość na ekranie przy pomocy pętli while.
+/*
+        int n,i=0;
+        Scanner odczyt = new Scanner(System.in);
+        System.out.println("Ile do ilu umiesz liczyć?");
+        n=odczyt.nextInt();
+        int[] tablica=new int[n];
+        while(i<n){
+            tablica[i]=i+1;
+            System.out.print(tablica[i]+"; ");
+            i++;
+        }
+*/
+
+
     }
 }
